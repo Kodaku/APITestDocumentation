@@ -1,0 +1,8 @@
+{
+    "label": "Test Setup and Run",
+    "position": 8,
+    "link": {
+        "type": "generated-index",
+        "description": "How to run tests for the toy server in a local environment"
+    }
+}
