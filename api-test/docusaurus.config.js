@@ -1,8 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -64,8 +64,7 @@ const config = {
                 },
                 items: [
                     {
-                        type: "doc",
-                        docId: "intro",
+                        to: "/docs/category/introduction",
                         position: "left",
                         label: "Documentation",
                     },
@@ -83,7 +82,7 @@ const config = {
                         title: "Docs",
                         items: [
                             {
-                                label: "Tutorial",
+                                label: "Documentation",
                                 to: "/docs/category/introduction",
                             },
                         ],
@@ -111,6 +110,10 @@ const config = {
                             {
                                 label: "GitHub",
                                 href: "https://github.com/Kodaku/APITestDocumentation/tree/main/api-test",
+                            },
+                            {
+                                label: "Jenkins",
+                                href: "https://www.jenkins.io/",
                             },
                         ],
                     },
