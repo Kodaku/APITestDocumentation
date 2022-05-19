@@ -53,6 +53,8 @@ The result will be the same as before with the exception that with triple quotes
 
 Now we can use global variables across multiple stages using this reference.
 
+A variable is declared using the keyword *def*.
+
 ```groovy
 def salut = "Hello"
 pipeline {

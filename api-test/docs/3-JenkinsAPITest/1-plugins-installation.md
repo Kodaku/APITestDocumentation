@@ -12,5 +12,6 @@ But before we dive into this topic here are listed the Jenkins plugins you need 
 -   [pipeline-utility-steps](https://plugins.jenkins.io/pipeline-utility-steps/):  per il parsing del contenuto di una risposta
 
 ## References
-* [HTTP Request Documentation](https://www.jenkins.io/doc/pipeline/steps/http_request/)
+
+* [HTTP Request Parameters](https://www.jenkins.io/doc/pipeline/steps/http_request/)
 * [Pipeline Utility Steps Documentation](https://www.jenkins.io/doc/pipeline/steps/pipeline-utility-steps/)
