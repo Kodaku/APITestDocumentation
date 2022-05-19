@@ -21,6 +21,8 @@ And it's on this reply that this documentation will focus: How can we assert tha
 
 The pipeline that this documentation will follow is presented below:
 
-* Test code is written with some programming language (like Javascript or Python or Java)
+* Test code is written with some programming language (like Javascript or Python or Java or Groovy)
 * We upload test code on GitHub
 * We build a pipeline in Jenkins in order to execute the test code making sure we have no errors
+
+The topic of this documentation will be to show how to write Jenkins pipelines to send basic requests to an API

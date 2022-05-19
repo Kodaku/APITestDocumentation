@@ -1,8 +1,0 @@
-{
-    "label": "Jest Testing",
-    "position": 10,
-    "link": {
-        "type": "generated-index",
-        "description": "How to setup the Javascript library Jest to write API tests"
-    }
-}

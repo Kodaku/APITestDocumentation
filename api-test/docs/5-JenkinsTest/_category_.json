@@ -1,8 +1,0 @@
-{
-    "label": "Testing On Jenkins",
-    "position": 9,
-    "link": {
-        "type": "generated-index",
-        "description": "Setup a Blue Ocean Pipeline to run the API tests"
-    }
-}

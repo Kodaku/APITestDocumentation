@@ -1,8 +1,0 @@
-{
-    "label": "Toy Server Setup And Run",
-    "position": 7,
-    "link": {
-        "type": "generated-index",
-        "description": "How to setup and run the toy server used to show how to test an API"
-    }
-}
