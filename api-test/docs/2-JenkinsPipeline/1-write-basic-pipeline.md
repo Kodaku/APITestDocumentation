@@ -27,14 +27,14 @@ pipeline {
 
 ## Code Explanation
 
-* The *pipeline*  statement we're just initializing the Jenkins pipeline.
-* The *agent* statement is inizializing a Jenkins agent to execute the pipeline
+* The *pipeline*  statement is just initializing the Jenkins pipeline.
+* The *agent* statement execute this Pipeline or any of its stages, on any available agent.
 * The *stages* statement is used to tell Jenkins that all of the code that will be in the curly brackets will have to be executed under different stages (at least one)
-* The *stage* statement declares a stage and in it we have its steps
-* The *steps* statement is used to instruct Jenkins on what to do in this stage
+* The *stage* statement defines a conceptually distinct subset of tasks performed through the entire Pipeline
+* The *steps* statement is a single task. Fundamentally, a step tells Jenkins what to do at a particular point in time
 * The *script* statement is used to tell Jenkins that there will be Groovy code to be executed
 
-An important aspect of the Jenkins pipeline is that it executes all the stages sequentially and if a stage fails then all the others will fail because the pipeline will interrupt at the first stage that fails.
+An important aspect of the Jenkins pipeline is that it executes all the stages sequentially and if a stage fails then all the others after it will fail since the pipeline will interrupt because of the failure of the stage.
 
 ## References
 * [Pipeline Documentation](https://www.jenkins.io/doc/book/pipeline/)

@@ -144,7 +144,7 @@ stage("Deleting the created user") {
 
 Here we don't see nothing new apart from the usage of the variable *contentJson* accessing its attribute *user* and the user's attribute *id*.
 
-## Code Execution
+## Code Execution Note
 
 If you execute this pipeline and an error is encountered in one stage then the others won't be executed, they'll automatically fail. If the execution is successfull then it means that all the assertions and requests where correct.
 

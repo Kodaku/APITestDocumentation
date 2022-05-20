@@ -8,8 +8,8 @@ Now it's time to use the syntax learned in the previous sections to perform some
 
 But before we dive into this topic here are listed the Jenkins plugins you need to install:
 
--   [http_request](https://plugins.jenkins.io/http_request/):  per le richieste http
--   [pipeline-utility-steps](https://plugins.jenkins.io/pipeline-utility-steps/):  per il parsing del contenuto di una risposta
+-   [http_request](https://plugins.jenkins.io/http_request/):  to send http requests
+-   [pipeline-utility-steps](https://plugins.jenkins.io/pipeline-utility-steps/):  to parse the content of a response into a JSON
 
 ## References
 
